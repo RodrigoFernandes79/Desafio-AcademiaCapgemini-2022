@@ -19,6 +19,7 @@ package questao01;
 
 import java.util.Scanner;
 
+// TODO: Auto-generated Javadoc
 /**
  * Classe Questao01.
  */
@@ -35,8 +36,23 @@ public class Questao01 {
 		System.out.print("Digite a quantidade de vezes: ");
 
 		int qtdDegraus = entrada.nextInt();
-		String[] degraus = new String[qtdDegraus];
+		
+		System.out.println(montaEscada(qtdDegraus));
+		
+		entrada.close();
+		
+	}
 
+
+		/**
+		 * Metodo estatico para montar uma escada.
+		 *
+		 * @param qtdDegraus insere a quantidade de degraus a serem criados
+		 * @return  retorna a saída do método no formato de uma string.
+		 */
+		public static String montaEscada(int qtdDegraus) {
+			String[] degraus = new String[qtdDegraus];
+			
 		for (int i = 1; i <= qtdDegraus; i++) {
 			String somaDegrau = " ";
 			for (int j = qtdDegraus; j >= 1; j--) {
@@ -53,7 +69,10 @@ public class Questao01 {
 			degraus[i - 1] = somaDegrau;
 
 		}
-		System.out.println(String.join("\n", degraus));
+		return String.join( " \n",degraus);
+		}
 
-	}
+
 }
+
+
