@@ -113,7 +113,7 @@ sua IDE e entre em cada diretório abaixo para executá -los:
 
 * Questão 1 -Teste:  **src/questao01/Questao01Test.java**
 
-* Questão 2- Teste:  **src/questao01/Questao02Test.java**
+* Questão 2- Teste:  **src/questao02/Questao02Test.java**
 
-* Questão 3-Teste:   **src/questao01/Questao03Test.java**
+* Questão 3-Teste:   **src/questao03/Questao03Test.java**
 
