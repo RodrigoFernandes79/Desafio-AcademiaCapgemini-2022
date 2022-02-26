@@ -6,7 +6,6 @@ package questao02;
 import java.util.Scanner;
 import java.util.regex.Pattern;
 
-
 /**
  * Classe Questao02.
  */
@@ -28,10 +27,11 @@ public class Questao02 {
 			senha = entrada.nextLine();
 			String valor = validaSenha(senha);
 			System.out.print(valor);
-
+			
 		}
-
+		
 		while (loopSenha(senha) == false);
+		entrada.close();
 
 	}
 
@@ -74,7 +74,7 @@ public class Questao02 {
 
 			return "Senha Adicionada com Sucesso";
 		}
-		if (senha.length() + x >= 6 || senhaEspecial == false && senhaMaiuscula == false&& senhaMinuscula == false
+		if (senha.length() + x >= 6 || senhaEspecial == false && senhaMaiuscula == false && senhaMinuscula == false
 				&& senhaDigito == false) {
 			return "Tente novamente...";
 		} else {
@@ -85,10 +85,11 @@ public class Questao02 {
 	}
 
 	/**
-	 *  Método estático Loop senha.
+	 * Método estático Loop senha.
 	 *
 	 * @param recebe como parâmetro a senha que o usuário inseriu.
-	 * @return retorna verdadeiro se todos os requisitos forem preenchidos , senao retorna falso
+	 * @return retorna verdadeiro se todos os requisitos forem preenchidos , senao
+	 *         retorna falso
 	 */
 	public static boolean loopSenha(String senha) {
 		boolean senhaDigito = Pattern.matches("^(?=.*\\d).+$", senha),

@@ -6,14 +6,12 @@ import org.junit.Test;
 
 public class Questao02Test {
 
-	
-
 	@Test
 	public void testValidaSenha() {
 		String senha = "Ya3";
-		
-		Integer y =  (6 - senha.length());
-		assertEquals("Senha fraca acresente mais " + y + " caracteres",Questao02.validaSenha(senha));
+
+		Integer y = (6 - senha.length());
+		assertEquals("Senha fraca acresente mais " + y + " caracteres", Questao02.validaSenha(senha));
 	}
 
 	@Test
