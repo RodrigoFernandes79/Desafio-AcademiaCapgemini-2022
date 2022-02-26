@@ -7,17 +7,12 @@ public class Questao01Test {
 
 	@Test
 	public void testMontaEscada() {
-		String respostaEsperada =  "   * \n "
-				                  + " ** \n"
-				               +" ***" ;
+		String respostaEsperada = "   * \n " + " ** \n" + " ***";
 
 		String escada;
 		escada = Questao01.montaEscada(3);
 
-		
 		Assert.assertEquals(respostaEsperada, escada);
 
 	}
-	}
-
-
+}
