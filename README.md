@@ -98,4 +98,22 @@ Java 8 ou superior - https://www.oracle.com/java/technologies/javase/javase8u211
 
 ## ⏯️   Rodando o Projeto
 
-Você pode [acessar os códigos fontes dos desafio](https://github.com/RodrigoFernandes79/Desafio-AcademiaCapgemini-2022) ou [baixá-lo](https://github.com/RodrigoFernandes79/Desafio-AcademiaCapgemini-2022/archive/refs/heads/master.zip).
+Você pode [acessar os códigos fontes dos desafio](https://github.com/RodrigoFernandes79/Desafio-AcademiaCapgemini-2022) , [baixá-lo](https://github.com/RodrigoFernandes79/Desafio-AcademiaCapgemini-2022/archive/refs/heads/master.zip) ou acessá-los diretamente clicando nos links abaixo:
+  
+-  [Questão 1](https://github.com/RodrigoFernandes79/Desafio-AcademiaCapgemini-2022/blob/master/src/questao01/Questao01.java)
+
+-  [Questão 2](https://github.com/RodrigoFernandes79/Desafio-AcademiaCapgemini-2022/blob/master/src/questao02/Questao02.java)
+
+-  [Questão 3](https://github.com/RodrigoFernandes79/Desafio-AcademiaCapgemini-2022/blob/master/src/questao03/Questao03.java)
+
+### ✅ Testes
+
+Os testes unitários estão divididos em 03 arquivos.java. Você pode acessar cada teste de cada questão separadamente.Para acessá-los entre no projeto através da 
+sua IDE e entre em cada diretório abaixo para executá -los:
+
+* Questão 1 -Teste:  **src/questao01/Questao01Test.java**
+
+* Questão 2- Teste:  **src/questao01/Questao02Test.java**
+
+* Questão 3-Teste:   **src/questao01/Questao03Test.java**
+
